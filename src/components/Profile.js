@@ -1,5 +1,5 @@
 // import user from '../data-json/user';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import defaultImage from './unknown-person.png';
 
 console.log(defaultImage);
