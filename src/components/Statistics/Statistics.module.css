@@ -1,0 +1,42 @@
+.statistics {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  50px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed darkcyan;
+    border-bottom: unset;
+}
+
+.stat-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    width: calc(100% / 4);
+    height: 80px;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        flex-direction: column;
+            gap: 10px;
+}
+
+.label {
+    /* Стилі для підпису (наприклад, ".docx", ".mp3", ".pdf", ".mp4") */
+}
+
+.percentage {
+    /* Стилі для відсоткового значення */
+}
