@@ -1,6 +1,6 @@
 // import user from '../data-json/user';
-// import PropTypes from 'prop-types';
-import defaultImage from './unknown-person.png';
+import PropTypes from 'prop-types';
+import defaultImage from '../unknown-person.png';
 
 console.log(defaultImage);
 export default function Profile({
@@ -36,3 +36,11 @@ export default function Profile({
     </div>
   );
 }
+
+Profile.propTypes = {
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats: PropTypes.object,
+};
