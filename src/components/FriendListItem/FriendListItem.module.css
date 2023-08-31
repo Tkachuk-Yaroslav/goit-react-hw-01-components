@@ -1,0 +1,27 @@
+.item {
+    width: 300px;
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.status {
+    font-size: 24px;
+}
+
+.avatar {
+    /* Стилі для аватару */
+}
+
+.name {
+    /* Стилі для імені користувача */
+}
+
+.true {
+    fill: green;
+}
+
+.false {
+    fill: red;
+}
